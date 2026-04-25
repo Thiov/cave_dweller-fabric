@@ -20,3 +20,4 @@ out/
 # users should download it themselves from Modrinth (see README).
 libs/*.jar
 !libs/.gitkeep
+.envrc
