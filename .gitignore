@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+work/
+.gradle/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.log
+.DS_Store
+
+# Keep the libs dir as a placeholder but don't track downloaded jars.
+# The build.gradle expects geckolib-fabric-26.1.2-5.5.1.jar in libs/;
+# users should download it themselves from Modrinth (see README).
+libs/*.jar
+!libs/.gitkeep

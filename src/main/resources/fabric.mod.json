@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cave_dweller",
+  "version": "${version}",
+  "name": "Cave Dweller",
+  "description": "Fork of the Cave Dweller mod (Fabric port).",
+  "authors": ["Cadentem"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cave_dweller/textures/entity/cave_dweller_texture.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.cadentem.cave_dweller.CaveDweller"],
+    "client": ["de.cadentem.cave_dweller.client.CaveDwellerClient"]
+  },
+  "mixins": [
+    "cave_dweller.mixins.json"
+  ],
+  "accessWidener": "cave_dweller.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": ">=0.146.1",
+    "minecraft": ">=26.1.2",
+    "java": ">=25",
+    "geckolib": ">=5.5.1"
+  }
+}
