@@ -3,6 +3,8 @@
 An unofficial Fabric port of [Cave Dweller Evolved](https://www.curseforge.com/minecraft/mc-mods/cave-dweller-evolved)
 by **SiverDX (Cadentem)**, ported to Fabric Loader 0.19.2 and Minecraft 26.1.2.
 
+> **Looking for the 1.21.10 build?** See the [`1.21.10/`](1.21.10/) subdirectory — it's a self-contained Fabric build for Minecraft 1.21.10.
+
 > All gameplay design, model, animations, and sounds are by the original authors.
 > This project only adapts the existing code to Fabric.
 >
