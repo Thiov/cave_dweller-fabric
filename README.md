@@ -1,9 +1,9 @@
 # Cave Dweller (Fabric Port)
 
 An unofficial Fabric port of [Cave Dweller Evolved](https://www.curseforge.com/minecraft/mc-mods/cave-dweller-evolved)
-by **SiverDX (Cadentem)**, ported to Fabric Loader 0.19.2 and Minecraft 26.1.2.
+by **SiverDX (Cadentem)**, ported to Fabric Loader 0.19.2 and Minecraft 26.2.
 
-> **Looking for an older Minecraft version?** The [`1.21.11/`](1.21.11/), [`1.21.10/`](1.21.10/) and [`1.20.1/`](1.20.1/) subdirectories are self-contained Fabric builds for those Minecraft versions.
+> **Looking for another Minecraft version?** The [`26.1.2/`](26.1.2/), [`26.1/`](26.1/), [`1.21.11/`](1.21.11/), [`1.21.10/`](1.21.10/) and [`1.20.1/`](1.20.1/) subdirectories are self-contained Fabric builds for those Minecraft versions.
 
 > **Playing NeoForge or Forge?** See the sibling project [cave_dweller-neoforge](https://github.com/Thiov/cave_dweller-neoforge).
 
@@ -16,10 +16,10 @@ by **SiverDX (Cadentem)**, ported to Fabric Loader 0.19.2 and Minecraft 26.1.2.
 
 ## Requirements
 
-- Minecraft **26.1.2**
+- Minecraft **26.2**
 - Fabric Loader **0.19.2+**
-- Fabric API **0.146.1+26.1.2**
-- GeckoLib **5.5.1** (Fabric)
+- Fabric API **0.153.0+26.2**
+- GeckoLib **5.5.3** (Fabric)
 - Java **25**
 
 ## Features
@@ -41,14 +41,16 @@ by **SiverDX (Cadentem)**, ported to Fabric Loader 0.19.2 and Minecraft 26.1.2.
 
 ```bash
 # Place GeckoLib's Fabric jar in libs/ before building
-# (download from https://modrinth.com/mod/geckolib/version/5.5.1+fabric+26.1.2)
-cp ~/Downloads/geckolib-fabric-26.1.2-5.5.1.jar libs/
+# (download from https://modrinth.com/mod/geckolib/version/L6bn4TS8)
+cp ~/Downloads/geckolib-fabric-26.2-5.5.3.jar libs/
 
-./gradlew build
+# Requires Gradle 9.4+ run on JDK 25.
+# Minecraft 26.x is non-obfuscated, so this uses Loom's net.fabricmc.fabric-loom plugin.
+gradle build
 # Output: build/libs/cave_dweller-1.6.4-fabric.jar
 ```
 
-JDK 25 required.
+JDK 25 required (it must be the JDK Gradle itself runs on).
 
 ## License
 
@@ -59,4 +61,4 @@ MIT, preserved from upstream. See [LICENSE](LICENSE).
 - **SiverDX (Cadentem)** — Cave Dweller Evolved (Forge upstream)
 - The original Cave Dweller mod authors — base concept and assets
 - [GeckoLib](https://github.com/bernie-g/geckolib) team — animation engine
-- [Thiov](https://github.com/Thiov) — Fabric port for 26.1.2
+- [Thiov](https://github.com/Thiov) — Fabric port for 26.2

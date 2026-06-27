@@ -1,0 +1,4 @@
+accessWidener v2 official
+
+# SpawnUtil.moveToPossibleSpawnPosition is package-private in vanilla
+accessible	method	net/minecraft/util/SpawnUtil	moveToPossibleSpawnPosition	(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/util/SpawnUtil$Strategy;)Z

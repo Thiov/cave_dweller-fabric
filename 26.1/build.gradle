@@ -22,7 +22,7 @@ dependencies {
     implementation "net.fabricmc:fabric-loader:${project.loader_version}"
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    implementation files('libs/geckolib-fabric-26.2-5.5.3.jar')
+    implementation files('libs/geckolib-fabric-26.1-5.5.jar')
 }
 
 loom {
