@@ -1,7 +1,7 @@
 # Cave Dweller (Fabric Port — 1.21.10)
 
 Self-contained Fabric build of Cave Dweller Evolved for **Minecraft 1.21.10**.
-Forked from the 26.1.2 port in the parent directory; downported to use the
+Forked from the 26.1.2 port in [`../26.1.2/`](../26.1.2/); downported to use the
 1.21.10 fabric-api / GeckoLib / Mojang mappings.
 
 ## Requirements
