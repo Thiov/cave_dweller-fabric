@@ -1,7 +1,7 @@
 # Cave Dweller (Fabric Port — 26.1.2)
 
 Self-contained Fabric build of Cave Dweller Evolved for **Minecraft 26.1.2**.
-Same code era as the 26.2 port in the parent directory; uses the 26.1.2
+Same code era as the 26.3 port in the parent directory (and the 26.2 port in [`../26.2/`](../26.2/)); uses the 26.1.2
 fabric-api / GeckoLib 5.5. Minecraft 26.x is non-obfuscated, so it builds
 with Loom's `net.fabricmc.fabric-loom` plugin.
 
